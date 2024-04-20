@@ -14,7 +14,7 @@ def page_summary_body():
         f"* the employee applies a specific compound to kill the fungus.\n" 
         f"* the model data can be found at https://www.kaggle.com/datasets/codeinstitute/cherry-leaves,\n"
         f"The time spent applying this compound is 1 minute. The company has thousands of cherry trees, "
-        f"located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection."
+        f"located on multiple farms across the country. As a result, this manual process is not scalable due to the time spent in the manual process inspection.\n"
         f"**Project Dataset**\n"
         f"* The available dataset contains 2104 healthy leaves and 2104 powdery mildew leaves making a total of 4208 images")
      
