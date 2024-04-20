@@ -50,7 +50,7 @@ def load_model_and_predict(my_image, version):
     """
 
     model = load_model(f"outputs/{version}/powdery_mildew_detector_model.h5")
-_
+    
     pred_proba = model.predict(my_image)[0, 0]
 
     target_map = {v: k for k, v in {'powdery_mildew': 0, 'healthy': 1}.items()}
