@@ -52,6 +52,9 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Main Data Analysis and Machine Learning Libraries
 
 * numpy==1.19.2 helped me to be able to perform mathematical operations.
+
+<img src="media/osdirectory.png">
+* os - helped me to navigate the operating system to create directories.
 * pandas==1.1.2  helped me to be able to put my data into data frames.
 * matplotlib==3.3.1 Helped me to be able to plot the bar graphs 
 * seaborn==0.11.0 Helped me to visualised data in a comparable and neat way.
