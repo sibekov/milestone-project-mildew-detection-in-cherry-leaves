@@ -53,18 +53,26 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 * numpy==1.19.2 helped me to be able to perform mathematical operations.
 
-<img src="media/osdirectory.png">
 * os - helped me to navigate the operating system to create directories.
+<img src="media/osdirectory.png">
+
+* Shutil helped with the handling of high level files 
+<img src="media/shutil.PNG">
+
 * pandas==1.1.2  helped me to be able to put my data into data frames.
 * matplotlib==3.3.1 Helped me to be able to plot the bar graphs 
 * seaborn==0.11.0 Helped me to visualised data in a comparable and neat way.
 * plotly==4.12.0 Helped me to visualised data in a comparable and neat way.
+see below diagram produced by the above mention ploting libraries:
+<img src="media/plots.PNG">
+* itertools helped with the creation of the image montage gallery:
+<img src="media/montage.PNG">
 
 * streamlit==0.85.0 Help me with prototyping and front end presatation via a deshboard.
 * python-3.11.9
 * scikit-learn==0.24.2
 * tensorflow-cpu==2.6.0 Helps to supply the deep neural network for deep learning.
-* keras==2.6.0 Helped with the convolution nearal network.
+* keras==2.6.0 Helped to load images as an array to prepare them for w the convolution neural network.
 * protobuf==3.20
 * altair<5
 
