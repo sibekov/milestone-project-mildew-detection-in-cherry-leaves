@@ -63,18 +63,27 @@ To save time in this process, the IT team suggested an ML system that detects in
 * matplotlib==3.3.1 Helped me to be able to plot the bar graphs 
 * seaborn==0.11.0 Helped me to visualised data in a comparable and neat way.
 * plotly==4.12.0 Helped me to visualised data in a comparable and neat way.
-see below diagram produced by the above mention ploting libraries:
+see below mean variability of leaves diagram produced by the above mention ploting libraries:
 <img src="media/plots.PNG">
+
 * itertools helped with the creation of the image montage gallery:
 <img src="media/montage.PNG">
+
+* seaborn helped me visualise the split between the trained, tested and validated data set with a Bar graph below:
+<img src="media/seaborn.PNG">
 
 * streamlit==0.85.0 Help me with prototyping and front end presatation via a deshboard.
 * python-3.11.9
 * scikit-learn==0.24.2
-* tensorflow-cpu==2.6.0 Helps to supply the deep neural network for deep learning.
-* keras==2.6.0 Helped to load images as an array to prepare them for w the convolution neural network.
-* protobuf==3.20
-* altair<5
+* tensorflow-cpu==2.6.0 Helps to supply the deep neural network for deep learning and build the model.
+* keras==2.6.0 Helped with the preprocessing and aurgument the data to produce more images that were not in the data set by applying various variation methods and 
+normalisation like rotating shifting zooming and later load images as an array to prepare them for w the convolution neural network.
+<img src="media/aurgumented.PNG">
+
+* from tensorflow.keras.models  Sequential models learns step by step or layer by layer.
+* from tensorflow.keras.layers  Activation, Dropout, Flatten, Dense, Conv2D, MaxPooling2D help to produce the model:
+<img src="media/model.PNG">
+
 
 
 ## Credits 
