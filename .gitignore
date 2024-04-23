@@ -7,5 +7,5 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
-kaggle.json
 outputs/v1/powdery_mildew_detector_model.h5 
+kaggle.json
