@@ -7,5 +7,8 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
+input/cherry-leaves_dataset/cherry-leaves/test
+input/cherry-leaves_dataset/cherry-leaves/train
+input/cherry-leaves_dataset/cherry-leaves/validation
 outputs/v1/powdery_mildew_detector_model.h5 
 kaggle.json
