@@ -83,9 +83,21 @@ normalisation like rotating shifting zooming and later load images as an array t
 
 ## Credits 
 
-* Gyan Shashwat - Code institute Walk through project. Helped me with the understanding of building the model and the prototype and a lot of libraries and algorithyms associated with deep learning.
 
-* Stack Overflow,Jonrsharpe Nov 20 2020, explaining the Reason behind the -> None in the initializer function, anabling me to keep it.
+* *Gyan Shashwat* - Code institute Walk through project. Helped me with the understanding of building the model and the prototype and a lot of libraries and algorithyms associated with deep learning.
+
+* *Stack Overflow*,Jonrsharpe Nov 20 2020, explaining the Reason behind the -> None in the initializer function, anabling me to keep it.
+
+* *Roman Rakic* - Code institute Tutor - Suggested put the heavy file on gitignore. This gave me the idea to try slugignore when git ignore did not work.  He gave me a good hint.  Most importently while trying different version of python I put some on the requirment.txt file, he notified me that this would be the reason why my dashboard is not showing. He also help me to under stand that the flag error I was getting when trying to change the heroku stack was acctually the app name.I used his suggestion  heroku stack:set heroku-20 -a your-app-name and the stack changed.
+
+* *Niel McEwen* - Programme Developer at code institute, firstly confirming that I can freely add files on the app if they are missing from the repo I forked. He explained that pycache will be automatically be created as soon as I am done creating my folders including src folder. He also assisted on guiding me to log onto Heroku from my code anywhere terminal using  heroku_config.
+
+* *Tomislav Dukez*  - https://github.com/tomdu3/brain-tumor-detector, he started his project over when it was not commiting and included his old commits as a separate file. I did not eventually follow this route all the way but I started and picked up my error as I was on the readme trying to deploy my newly project.
+
+* *Mo Shami* I contacted last minute but was suppotive and give me a lot of ideaz like trying uploading images directly on heroku and also refered me to the repo https://github.com/tomdu3/brain-tumor-detector.
+
+* *The Code institute PP5 readme* clarified that I should be using slugignore for the heavy files that are causing my app to fail due to size. Once I did this and committed my deployment to heroku worked!
+
 
 ### Content 
 
