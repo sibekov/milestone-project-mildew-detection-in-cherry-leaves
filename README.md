@@ -15,11 +15,18 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them).
+* We suspect powdery mildew leaves have clear marks/signs, typically the white powder can be seen and can be any where on the leaf..
+
+* An Image Montage shows that typically a powdery mildew leafs white marks over it. Average Image, Variability Image and Difference between Averages studies did not reveal a clear pattern to differentiate one from another.
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+* 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+This is address on the dashboard as leaves Visualiser Radio button. Clicking on this will trigger the model culculating the difference between the health leaves and also give you a gallery with and image montage for all
+<img src="media/Visualizer.PNG"> <img src="media/averagedifference.PNG"><img src="media/Difference.PNG"><img src="media/Montagedashboard.PNG">
+* 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew. This is addressed by uploading a leaf from anywhere on client data base and the model will let them know if it is healthy or infected with powdery mildew. There by addressing the second requirement.
+<img src="media/Requirement.PNG">
+
 
 
 ## ML Business Case
@@ -28,25 +35,10 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-* Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+
+<img src="media/streamlitdashboard.PNG">
 
 
-## Unfixed Bugs
-* 
-
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
 
 
 ## Main Data Analysis and Machine Learning Libraries
