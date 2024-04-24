@@ -30,8 +30,11 @@ This is address on the dashboard as leaves Visualiser Radio button. Clicking on 
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+* Our Model is a good model becase it performs well on test data but most importantly on Validation Data, the date that it has not seen before.  Below snip show that as Model losses decrease the accuracy improves proving that there no over fitting or under fitting. Moreover the Validation moves allong with the model Evidenced by Model History below.
 
+<img src="media/Business Case.PNG">
+
+The Generalised Performance on Test Set Show 99.29% accuracy and a loss at its minimum of 2.3%.  The model is reliable better than what the client requested (95%).
 
 ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
